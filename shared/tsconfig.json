@@ -5,6 +5,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": ["es2022"],
+    "target": "es2022",
     "outDir": "dist"
   },
   "include": ["src"]
