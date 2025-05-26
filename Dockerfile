@@ -56,4 +56,6 @@ COPY --from=client-build ${APPDIR}/client/dist ./static
 
 ENV TZ=Europe/Helsinki
 
+EXPOSE 3003
+
 CMD npm run db-migrate:prod && npm start
